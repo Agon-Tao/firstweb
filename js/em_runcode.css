@@ -1,0 +1,8 @@
+@charset "utf-8";
+/* CSS Document */
+.codediv{padding:10px;}
+.codetextarea{border-top:2px solid #666;border-left:2px solid #666;border-bottom:1px solid #ccc;border-right:1px solid #ccc;color:#003;background:#fff;font-size:14px;padding:3px 1px 1px 2px;}
+.codeline{margin-top:2px;}
+.codebutton{height:30px;width:120px;text-align:center;border:1px solid #ccc;background:url(btbg.gif) repeat-x;color:#666;margin-right:5px;}
+.codebutton:hover{background:url(btbg.gif) repeat-x 0 -5px;}
+

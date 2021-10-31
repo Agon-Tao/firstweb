@@ -1,0 +1,73 @@
+
+
+		body{
+			margin: 0px;
+		}
+		 .daohang{/*设置导航栏的框框*/
+		 	margin:0px auto;/*框框整体的位置，30px是指离网页的顶部和下部的距离，auto控制的是左右距离为自动调节*/
+			width: 70%;/*框框的宽度*/
+			height: 60px;/*框框的长度*/
+			padding: 0px;/*将框框的padding设置为零，不然会导致框框里的内容与框边缘有间隔*/
+			border:0px solid #000;/*添加边框*/
+			
+		}
+		li{
+			list-style-type: none;/* 去掉li前的点 */
+			float: left;/*将li设置成做浮动，变为联动*/
+			
+		margin-left: 0px;
+		}
+		.dhl{
+			display: block;/*将a变成块状*/
+			width: 100px;/*设置块的宽度*/
+			height: 50px;/*设置块的长度*/
+			font-family: Microsoft Yahei;
+			line-height: 50px;/*设置字体在块中的高度*/
+			background-color: ;
+			margin: 0px 0px;/*块里的高宽通过margin设置*/
+			color: #fff;
+			text-align: center;/*字体居中*/
+			text-decoration: none;/*去掉下划线*/
+			font-size: 15px;/*字体大小*/
+		}
+		.daohang a:hover{
+			background-color: #2f6f4f;/*指定到导航的a标签鼠标经过的颜色*/
+		}
+		
+.lanmugaodu{
+height: 1000px;/*腰部离导航栏高度*/
+	background:#000;width:200px;height:100px;padding:5px;color:#F00; 
+filter:alpha(Opacity=60);-moz-opacity:0.6;opacity: 0.6;
+
+height: 0px;
+overflow: hidden;
+z-index: 9999;
+position: fixed;
+padding:5px;
+text-align:center;
+width: 100%;
+height: 50px;
+
+}
+div.lanmugaodu{
+right: 0px;
+top: 0px;
+}
+
+.ssk{
+
+overflow: hidden;
+position:relative; 
+left:13.5px;
+bottom:-7px;
+}
+.logodiv{
+     	border:0px solid #F00;
+	        background-color: #2f4f4f;
+	        width: 10px;
+	        height: 0px;
+          margin-left:80%;
+	        position: relative;
+	        top: 6px;
+}
+
